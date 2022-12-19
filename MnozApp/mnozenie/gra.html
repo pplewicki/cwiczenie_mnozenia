@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gramy Gramy</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/mnozenie/gra.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">Pytanie:</p>
+            <div id="progressBar">
+              <div id="progressBarFull">
+
+              </div>
+            </div>
+
+          <div id="hud-item">
+
+            <p class="hud-prefix">
+              <br/>
+              Punkty:
+            </p>
+
+            <h1 class="hud-main-text" id="score">
+              0            
+            </h1>
+            <h2 id="question"> </h2>
+          </div>
+        </div>         
+      </div>
+
+      
+        <div class="choice-container">
+                  <div class="choice-container">
+                    <p class="choice-prefix"></p>
+                    <p class="choice-text" data-number="1">Choice 1</p>
+                  </div>
+              <div class="choice-container">
+                    <p class="choice-prefix"></p>
+                    <p class="choice-text" data-number="2">Choice 2</p>
+              </div>
+               <div class="choice-container">
+                    <p class="choice-prefix"></p>
+                    <p class="choice-text" data-number="3">Choice 3</p>
+              </div>
+            <div class="choice-container">
+                    <p class="choice-prefix"></p>
+                    <p class="choice-text" data-number="4">Choice 4</p>
+                    <p class="choice-prefix"></p>
+            </div>
+      </div>
+    </div>
+    <script src="/mnozenie/gra.js"></script>
+  </body>
+</html>
+
+
